@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "koober",
     "public": "dist",
     "ignore": [
       "firebase.json",

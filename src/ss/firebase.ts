@@ -4,13 +4,13 @@ import { getAnalytics } from 'firebase/analytics'
 export
 const init_firebase = () => {
   const firebaseConfig = {
-    apiKey: 'AIzaSyD2lfruvbaPfOIYshXh92zEljFU6qbvFHM',
-    authDomain: 'koob-7976c.firebaseapp.com',
-    projectId: 'koob-7976c',
-    storageBucket: 'koob-7976c.appspot.com',
-    messagingSenderId: '215339737792',
-    appId: '1:215339737792:web:c0b079f477a620ec84c325',
-    measurementId: 'G-SDV7HTBBFX'
+    apiKey: 'AIzaSyALie4z8as9jMoX19BwP5YqhLh5W4-Mg_U',
+    authDomain: 'koob-ppz.firebaseapp.com',
+    projectId: 'koob-ppz',
+    storageBucket: 'koob-ppz.appspot.com',
+    messagingSenderId: '895128901523',
+    appId: '1:895128901523:web:ba3a04f287c1565907ba66',
+    measurementId: 'G-5RRY01BP1S',
   }
 
   // Initialize Firebase
