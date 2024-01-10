@@ -5,12 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@picocss/pico':
-    specifier: ^1.5.11
-    version: 1.5.11
   firebase:
     specifier: ^10.7.1
     version: 10.7.1
+  last.css:
+    specifier: file:..\last.css\last.css-0.0.1.tgz
+    version: file:../last.css/last.css-0.0.1.tgz
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -811,10 +811,6 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.16.0
     dev: true
-
-  /@picocss/pico@1.5.11:
-    resolution: {integrity: sha512-cDaFiSyNPtuSTwSQt/05xsw8+g2ek4/S58tgh9Nc7miJCCdUrY9PAyl4OPWRJtYgJDdEvkUA9GuGj0J4nDP4Cw==}
-    dev: false
 
   /@protobufjs/aspromise@1.1.2:
     resolution: {integrity: sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==}
@@ -2350,3 +2346,9 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  file:../last.css/last.css-0.0.1.tgz:
+    resolution: {integrity: sha512-BQ5X+aqK6mSjShbCsPgohYJ4xHB7odMxCaoH9Xs+aDEATUVykXzA1r6cEuCy5CpOWB0/x7j+n2eo40S60WSYAA==, tarball: file:../last.css/last.css-0.0.1.tgz}
+    name: last.css
+    version: 0.0.1
+    dev: false

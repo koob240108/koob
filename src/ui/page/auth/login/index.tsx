@@ -1,29 +1,23 @@
-import { Link } from 'wouter'
 import { pages } from '../../../../ss/router'
 
 const Login_page = () => {
   return <main className='container'>
     <form>
-      <label>
+      <label className='input'>
         用户名
         <input required name='username' />
       </label>
-      <label>
+      <label className='input'>
         密码
         <input required type='password' name='password' />
       </label>
 
-      <div className='grid'>
-        <Link
-          role='button'
-          className='outline'
-          href={pages.signup.path}
-        >注册</Link>
-        <input type='submit' value='登录'
-          style={{ marginBottom: 0 }}
-        />
-      </div>
-      <hr />
+      <input
+        type='submit' value='登 录'
+        className='btn fw'
+        style={{ marginBottom: 0 }}
+      />
+      <hr data-title='or' />
     </form>
   </main>
 }
