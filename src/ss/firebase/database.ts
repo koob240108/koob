@@ -1,7 +1,7 @@
 import { FirebaseApp } from 'firebase/app'
 import { Firestore, getFirestore } from 'firebase/firestore'
 
-import { Collections, Collection, Database } from '../types'
+import { Collections, Collection, Database } from './types'
 
 export
 class Database_impl implements Database {

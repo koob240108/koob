@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import { Firebase_helper } from '../types'
+import { Firebase_helper } from './types'
 import { Database_impl } from './database'
 
 export
