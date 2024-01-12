@@ -1,19 +1,26 @@
+import { css } from '@emotion/react'
 import { pages } from '../../../../ss/router'
 import { create_user_with_email_and_password } from '../../../../ss/auth'
 import { Layout } from '../../../cmp/layout'
 import { useIs_page } from '../../../../ss/utils'
+
+const action_name_style = css({
+  letterSpacing: '.5em',
+})
 
 const Login_and_signup_page = () => {
   const is_login = useIs_page(pages.login)
   const action_name = is_login ? '登录' : '注册' // 用 letterspacing 隔开
   return <Layout>
     <div
-      style={{
+      css={{
         maxWidth: 500,
         margin: '0 auto',
       }}
     >
-      <h2 style={{ textAlign: 'center' }}>{action_name}</h2>
+      <h2 css={[action_name_style, { textAlign: 'center' }]}>
+        {action_name}
+      </h2>
       <form
         onSubmit={async evt => {
           evt.preventDefault()
@@ -46,8 +53,8 @@ const Login_and_signup_page = () => {
 
         <input
           type='submit' value={action_name}
+          css={[action_name_style, { marginBottom: 0 }]}
           className='btn fw'
-          style={{ marginBottom: 0 }}
         />
         <hr data-title='or' />
       </form>

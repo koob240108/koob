@@ -10,8 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
     "firebase": "^10.7.1",
-    "last.css": "file:..\\last.css\\last.css-0.0.1.tgz",
+    "last.css": "file:../last.css/last.css-0.0.1.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "wouter": "^2.12.1"
