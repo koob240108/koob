@@ -1,8 +1,9 @@
 import { initializeApp } from 'firebase/app'
-import { getAnalytics } from 'firebase/analytics'
+import { Firebase_helper } from '../types'
+import { Database_impl } from './database'
 
 export
-const init_firebase = () => {
+const init_firebase_helper = (): Firebase_helper => {
   const firebaseConfig = {
     apiKey: 'AIzaSyALie4z8as9jMoX19BwP5YqhLh5W4-Mg_U',
     authDomain: 'koob-ppz.firebaseapp.com',
@@ -13,8 +14,9 @@ const init_firebase = () => {
     measurementId: 'G-5RRY01BP1S',
   }
 
-  // Initialize Firebase
   const app = initializeApp(firebaseConfig)
-  // const analytics =
-  getAnalytics(app)
+
+  return {
+    db: new Database_impl(app),
+  }
 }

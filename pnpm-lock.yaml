@@ -2348,7 +2348,7 @@ packages:
     dev: true
 
   file:../last.css/last.css-0.0.1.tgz:
-    resolution: {integrity: sha512-BQ5X+aqK6mSjShbCsPgohYJ4xHB7odMxCaoH9Xs+aDEATUVykXzA1r6cEuCy5CpOWB0/x7j+n2eo40S60WSYAA==, tarball: file:../last.css/last.css-0.0.1.tgz}
+    resolution: {integrity: sha512-kRaLaLyZ974QL5E2thbNMb3IyZkeoLgmKUNeFbqpWVlKRG9LbiZZqucmetLeZrYL1/sxhUpHrrJs9ICLLocvjA==, tarball: file:../last.css/last.css-0.0.1.tgz}
     name: last.css
     version: 0.0.1
     dev: false

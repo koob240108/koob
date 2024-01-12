@@ -1,6 +1,10 @@
-import { init_firebase } from './firebase'
+import { init_firebase_helper } from './firebase/init'
 
+/** init state and service */
 export
 const init_ss = async () => {
-  init_firebase()
+  const firebase = init_firebase_helper()
+
+  return {
+  }
 }

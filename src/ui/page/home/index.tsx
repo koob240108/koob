@@ -1,6 +1,10 @@
+import { useEffect } from 'react'
 import { pages } from '../../../ss/router'
 
 const Home_page = () => {
+  useEffect(() => {
+
+  }, [])
   return <div>Home</div>
 }
 
