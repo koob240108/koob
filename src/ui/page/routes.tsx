@@ -2,8 +2,7 @@ import { FC } from 'react'
 import { Route } from 'wouter'
 
 import { home_page } from './home'
-import { login_page } from './auth/login'
-import { signup_page } from './auth/signup'
+import { login_page, signup_page } from './auth/login_and_signup'
 
 interface Route_opts {
   path: string

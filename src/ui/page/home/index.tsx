@@ -1,11 +1,14 @@
 import { useEffect } from 'react'
 import { pages } from '../../../ss/router'
+import { Layout } from '../../cmp/layout'
 
 const Home_page = () => {
   useEffect(() => {
 
   }, [])
-  return <div>Home</div>
+  return <Layout>
+    this is home
+  </Layout>
 }
 
 export
